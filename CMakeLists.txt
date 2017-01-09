@@ -25,6 +25,7 @@ include_directories(
 
 add_executable( main
     src/main.cpp
+    src/parse_csv.cpp
 )
 
 ################################################################################
