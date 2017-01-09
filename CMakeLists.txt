@@ -28,4 +28,8 @@ add_executable( main
     src/parse_csv.cpp
 )
 
+add_subdirectory( rapidcheck )
+
+target_link_libraries( main rapidcheck )
+
 ################################################################################
